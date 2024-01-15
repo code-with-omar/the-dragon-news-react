@@ -1,0 +1,116 @@
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Raleway:wght@900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --dark-color-02: #403F3F;
+    --dark-color-03: #706F6F;
+    --dark-color-04: #9F9F9F;
+    --dark-color-06: #E7E7E7;
+    --dark-color-07: #F3F3F3;
+    --pink-color: #D72050;
+}
+
+/* font color  */
+.dark-02 {
+    color: var(--dark-color-02);
+}
+
+.dark-03 {
+    color: var(--dark-color-03);
+}
+
+.dark-04 {
+    color: var(--dark-color-04);
+}
+
+.dark-06 {
+    color: var(--dark-color-06);
+}
+
+.dark-07 {
+    color: var(--dark-color-07);
+}
+
+/* background color  */
+.bg-dark-02 {
+    background: var(--dark-color-02);
+}
+
+.bg-dark-03 {
+    background: var(--dark-color-03);
+}
+
+.bg-dark-04 {
+    background: var(--dark-color-04);
+}
+
+.bg-dark-06 {
+    background: var(--dark-color-06);
+}
+
+.bg-dark-07 {
+    background: var(--dark-color-07);
+}
+.bg-pink{
+    background: var(--pink-color);
+}
+/* font weight  */
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+/* font size  */
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-25 {
+    font-size: 25px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.fs-35 {
+    font-size: 35px;
+}
+/* button */
+.button{
+    padding: 10px 24px;
+    line-height: 30px;
+    color:#ffff;
+    border: none;
+    border-radius: 0;
+}

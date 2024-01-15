@@ -1,0 +1,9 @@
+.latest-news-section{
+    padding: 16px;
+    border-radius: 5px;
+}
+.latest-news-section button:hover{
+    background-color: #D72050;
+    cursor: not-allowed;
+    
+}
