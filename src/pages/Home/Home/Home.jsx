@@ -4,11 +4,14 @@ import LeftNav from '../../Shared/LeftNav/LeftNav.jsx';
 import RightNav from '../../Shared/RightNav/RightNav.jsx';
 import Footer from '../../Shared/Footer/Footer.jsx';
 import BrakingNews from './BrakingNews.jsx';
+import UserNavBar from '../../Shared/UserNavBar/UserNavBar.jsx';
+
 const Home = () => {
   return (
     <div>
       <Header></Header>
       <BrakingNews></BrakingNews>
+      <UserNavBar></UserNavBar>
       <Row>
 
         <Col lg={3} className="g-4">

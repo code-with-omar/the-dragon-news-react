@@ -19,9 +19,14 @@ html {
     --dark-color-06: #E7E7E7;
     --dark-color-07: #F3F3F3;
     --pink-color: #D72050;
+    --white-color: #fff;
 }
 
 /* font color  */
+.white {
+    color: var(--white-color);
+}
+
 .dark-02 {
     color: var(--dark-color-02);
 }
@@ -62,9 +67,11 @@ html {
 .bg-dark-07 {
     background: var(--dark-color-07);
 }
-.bg-pink{
+
+.bg-pink {
     background: var(--pink-color);
 }
+
 /* font weight  */
 .fw-400 {
     font-weight: 400;
@@ -106,11 +113,12 @@ html {
 .fs-35 {
     font-size: 35px;
 }
+
 /* button */
-.button{
+.button {
     padding: 10px 24px;
     line-height: 30px;
-    color:#ffff;
+    color: #ffff;
     border: none;
     border-radius: 0;
 }

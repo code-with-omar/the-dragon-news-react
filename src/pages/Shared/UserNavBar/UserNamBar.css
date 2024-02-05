@@ -1,0 +1,40 @@
+.user-navbar-content {
+    width: 700px;
+}
+
+.user-navbar-links a {
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.user-navbar-links a:hover {
+    border-bottom: 1px solid rgb(109, 85, 85);
+    cursor: pointer;
+}
+
+.user-navbar-user {
+    height: 60px;
+}
+
+.user-navbar-user .user-navbar-user-img {
+    width: 41px;
+    height: 41px;
+    margin: auto;
+    
+}
+
+.user-login-btn {
+    border-radius: 0;
+    padding: 16px 42px;
+}
+
+.user-login-btn:hover {
+    background: #403F3F;
+    color: aqua;
+}
+@media only screen and (max-width: 992px) {
+    .user-navbar-content{
+        width: 100%;
+    }
+}
