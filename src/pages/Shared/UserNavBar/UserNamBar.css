@@ -21,7 +21,7 @@
     width: 41px;
     height: 41px;
     margin: auto;
-    
+
 }
 
 .user-login-btn {
@@ -33,8 +33,20 @@
     background: #403F3F;
     color: aqua;
 }
+
 @media only screen and (max-width: 992px) {
-    .user-navbar-content{
+    .user-navbar-content {
         width: 100%;
+    }
+
+    .user-navbar-links a {
+        margin-top: 20px;
+        display: inline-block;
+        margin-right: 0;
+    }
+
+    .user-navbar-links a:hover {
+        border-bottom: 0;
+        color: rgb(49, 2, 40);
     }
 }
