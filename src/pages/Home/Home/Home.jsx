@@ -12,7 +12,7 @@ const Home = () => {
       <Header></Header>
       <BrakingNews></BrakingNews>
       <UserNavBar></UserNavBar>
-      <Row>
+      <Row className="mt-5">
 
         <Col lg={3} className="g-4">
           <Card className='border-0'>
