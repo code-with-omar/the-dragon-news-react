@@ -11,3 +11,19 @@
     cursor: pointer;
     font-size: 16px;
 }
+
+.find-us-icon {
+    width: 30px;
+    height: 30px;
+    background: #F3F3F3;
+    
+}
+.find-us-icon-fb{
+    color:#0084FF
+}
+.find-us-icon-twitter{
+    color:  #1da1f2;
+}
+.find-us-icon-instagram{
+    color: #833AB4;
+}
