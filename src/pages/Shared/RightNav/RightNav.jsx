@@ -2,6 +2,9 @@ import { FaGoogle, FaInstagram } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
+import Qzone1 from "../../../../src/assets/qZone1.png"
+import Qzone2 from "../../../../src/assets/qZone2.png"
+import Qzone3 from "../../../../src/assets/qZone3.png"
 import "./RightNav.css";
 import { Link } from "react-router-dom";
 const RightNav = () => {
@@ -47,6 +50,17 @@ const RightNav = () => {
 
                     <span className="ms-2">Instagram</span>
                 </div>
+            </div>
+            <div className="bg-dark-07 mt-4">
+                <h2>Q-Zone</h2>
+                <img src={Qzone1} alt="" />
+                <img src={Qzone2} alt="" />
+                <img src={Qzone3} alt="" />
+            </div>
+            <div className="create-amazing-newspaper p-4 mt-4">
+                <h2 className="white fs-30 fw-600 mb-3">Create an Amazing Newspaper</h2>
+                <p className="fs-16 fw-500 white">Discover thousands of options, easy to customize layouts, one-click to import demo and much more.</p>
+                <button className="button btn-create-amazing-newspaper">Learn More</button>
             </div>
         </div>
     );

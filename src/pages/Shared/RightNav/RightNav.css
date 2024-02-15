@@ -16,14 +16,37 @@
     width: 30px;
     height: 30px;
     background: #F3F3F3;
-    
+
 }
-.find-us-icon-fb{
-    color:#0084FF
+
+.find-us-icon-fb {
+    color: #0084FF
 }
-.find-us-icon-twitter{
-    color:  #1da1f2;
+
+.find-us-icon-twitter {
+    color: #1da1f2;
 }
-.find-us-icon-instagram{
+
+.find-us-icon-instagram {
     color: #833AB4;
+}
+
+.create-amazing-newspaper {
+    background: url('./../../../assets/bg1.png');
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    width: 307px;
+    height: 509px;
+    text-align: center;
+    padding:65px 38px;
+  
+}
+.btn-create-amazing-newspaper{
+    background:#D72050;
+    color: white;
+    margin-top: 48px;
+    cursor: pointer;
+}
+.btn-create-amazing-newspaper:hover{
+    text-decoration: underline;
 }
