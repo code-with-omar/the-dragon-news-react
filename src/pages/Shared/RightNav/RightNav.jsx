@@ -51,8 +51,8 @@ const RightNav = () => {
                     <span className="ms-2">Instagram</span>
                 </div>
             </div>
-            <div className="bg-dark-07 mt-4">
-                <h2>Q-Zone</h2>
+            <div className="bg-dark-07 mt-4 text-center">
+                <h2 style={{marginLeft:"16px",paddingTop:"16px"}}>Q-Zone</h2>
                 <img src={Qzone1} alt="" />
                 <img src={Qzone2} alt="" />
                 <img src={Qzone3} alt="" />
